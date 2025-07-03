@@ -42,3 +42,50 @@ This Databricks notebook performs an exploratory data analysis (EDA) on a health
 📌 Output
 
 The final output is a cleaned dataset and multiple visualizations, which are intended for export or integration with BI tools like Power BI or Databricks dashboards.
+
+HealthCare_Dashboard
+
+Overview
+
+The HealthCare Dashboard presents interactive visualizations based on the analysis performed in the accompanying Databricks notebook. It highlights key insights into patient behavior, particularly appointment adherence across demographics and medical conditions.
+📊 Key Dashboard Components
+
+    Show Rate by Age Group
+
+        Visualizes how appointment no-show rates vary across different age segments.
+
+    Show Rate by Gender
+
+        Compares missed appointments between male and female patients.
+
+    Age Group vs Diabetes
+
+        Displays the distribution of diabetic patients by age group.
+
+    Age Group vs Hypertension
+
+        Shows the count of hypertension cases across age categories.
+
+    Monthly Show Trend
+
+        Line chart tracking no-show rates month-wise to identify seasonal patterns.
+
+    Appointment Trends Over Time
+
+        Tracks total vs. attended appointments to highlight behavioral trends.
+
+    Age Group vs Alcoholism
+
+        Highlights alcoholism prevalence among age groups.
+
+    Age Group vs Handicap
+
+        Visualizes the distribution of handicapped patients across age groups.
+
+    Built using Databricks Notebooks + Dashboard view
+
+    Visualizations created using Databricks’ built-in charting and Python libraries
+
+📌 Usage
+
+Ideal for healthcare analysts or hospital administrators to identify patterns in patient behavior and optimize scheduling, reminders, or follow-up procedures.
